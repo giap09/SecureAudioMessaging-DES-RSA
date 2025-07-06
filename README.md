@@ -1,5 +1,7 @@
 🎧 Hệ Thống Truyền Tệp Âm Thanh Bảo Mật Qua Mạng LAN
-[![Uploading image.png…]()](https://github.com/giap09/SecureAudioMessaging-DES-RSA/blob/main/486643036_1189777543149102_27833471534785857_n.jpg)
+
+![🎧 Giao diện hệ thống](https://github.com/giap09/SecureAudioMessaging-DES-RSA/blob/main/486643036_1189777543149102_27833471534785857_n.jpg?raw=true)
+
 
 Ứng dụng Flask + Crypto để gửi và nhận file âm thanh qua mạng LAN với mã hóa và xác thực an toàn.
 
