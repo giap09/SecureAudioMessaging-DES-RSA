@@ -61,9 +61,6 @@ openssl rsa -pubout -in receiver_private.pem -out receiver_public.pem
 3. Khởi động hệ thống
 Terminal 1 – Máy nhận:
 
-bash
-Sao chép
-Chỉnh sửa
 python receiver_web.py
 # Giao diện tại: http://localhost:5001
 Terminal 2 – Máy gửi:
@@ -78,6 +75,8 @@ Chọn file âm thanh (.mp3, .wav)
 
 Gửi file qua TCP socket
 
+![Sender UI](https://github.com/giap09/SecureAudioMessaging-DES-RSA/blob/main/Screenshot%202025-07-07%20035243.png?raw=true)
+
 
 Người nhận
 Nhấn "Bắt đầu lắng nghe"
@@ -86,13 +85,12 @@ Xem nhật ký, kiểm tra trạng thái kết nối
 
 Tự động lưu file nếu hợp lệ
 
+![Receiver UI](https://github.com/giap09/SecureAudioMessaging-DES-RSA/blob/main/Screenshot%202025-07-07%20035303.png?raw=true)
 
 🧪 Kiểm tra môi trường
 Bạn có thể kiểm tra quyền ghi file bằng:
 
-bash
-Sao chép
-Chỉnh sửa
+
 python test_file_write.py
 👥 Tác giả
 👨‍💻 Nguyễn Đào Nguyên Giáp
